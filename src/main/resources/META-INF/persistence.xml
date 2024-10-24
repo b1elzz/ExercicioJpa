@@ -22,14 +22,10 @@
             <property name="hibernate.format_sql" value="true" />
 
 
-            <!--            faz update o schema.-->
+    
             <property name="hbm2ddl.auto" value="validate" />
 
-            <!--            cria o schema, destruindo dados anteriores.-->
-            <!--            <property name="hbm2ddl.auto" value="create" />-->
 
-            <!--            validar o schema, não faz mudanças no banco de dados.-->
-            <!--            <property name="hbm2ddl.auto" value="validate" />-->
         </properties>
 
     </persistence-unit>
